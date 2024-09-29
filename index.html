@@ -2,67 +2,396 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Kyrylo Melanich</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyrylo Melanich 🔥</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles1.css" />
   </head>
 
   <body>
     <header>
       <h2>KM</h2>
       <nav>
-        <a>Github</a>
-        <a>Linkedin</a>
+        <a
+          class="darkerText"
+          href="https://github.com/KirillMelanich?tab=stars"
+          target="_blank"
+          >GitHub</a
+        >
+        <a
+          class="darkerText"
+          href="#Certificates"
+          >Certificates</a
+        >
+        <a
+        class="darkerText"
+        href="#Projects"
+        >Projects</a
+      >
+        <a
+          class="darkerText"
+          href="https://www.linkedin.com/in/kyrylo-melanich-157088252/"
+          target="_blank"
+          >LinkedIn</a
+        >
       </nav>
     </header>
     <main>
       <section>
         <div class="nameContainer">
           <h1>Kyrylo Melanich</h1>
-          <p class="darkerText">I write code and build projects</p>
+          <p class="darkerText">I write code & build projects.</p>
         </div>
-        <div>
-          <div class="imageContainer">
+        <div class="statsContainer">
+          <div class="imgContainer">
             <img
-              src="https://avatars.githubusercontent.com/u/123824712?v=4"
+              src="https://media.licdn.com/dms/image/v2/D4D03AQGL44FLnIIXhg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710854649957?e=1732752000&v=beta&t=ACQAFNzqWiJkNt_aN3syqtLERWHBa2C73d4VvQFgkvo"
               alt="profile-img"
             />
           </div>
+          <div class="stats darkerText">
+            <div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="">128 GitHub Repositories</p>
+            </div>
+            <div>
+              <div>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </div>
+              <p class="">234 Commits This Year</p>
+            </div>
+          </div>
+        </div>
+        <p class="aboutMe">
+          Hi, I'm Kyrylo Melanich, a software engineer who loves building cool
+          things with code. I trust in logical thinking and the progress of
+          science. In addition to coding, I also make music, write songs, and
+          perform them on stage. I admire football and enjoy traveling.
+        </p>
+        <div>
+          <a href="mailto:kyrylomelanich@gmail.com" class="outreach darkerText">
+            <i class="fa-solid fa-arrow-right"></i>
+            <p>Email me</p>
+          </a>
+        </div>
+      </section>
+      <section id="Projects" class="projectContainer">
+        <p class="darkerText headerText">My Projects</p>
+        <div class="projectItem">
           <div>
-            <div>
-              <p></p>
-            </div>
-            <div>
-              <p></p>
-            </div>
-            <div>
-              <p></p>
+            <p class="darkerText">The Marketplace</p>
+            <p>
+              The "Marketplace" is a fully-fledged online store built on Django.
+              Users can browse and purchase a variety of products, facilitated
+              by the secure online payment system, Stripe. The entire
+              functionality is implemented following the best programming
+              practices of the Django framework
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/Marketplace"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">GitHub</p>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/Marketplace"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-solid fa-bolt"></i>
+                </div>
+                <p class="">Live</p>
+              </a>
             </div>
           </div>
           <div>
-            <a>
-              <p>Email me</p>
-            </a>
+            <img src="/public/swolenormous.png" alt="swolenormous-img" />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Book Reading Service</p>
+            <p>
+              This API allows an authorized user to read books and measure the
+              time of reading sessions
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/Book_reading_service"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">GitHub</p>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/Book_reading_service"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-solid fa-bolt"></i>
+                </div>
+                <p class="">Live</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img src="/public/ailtr.png" alt="swolenormous-img" />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Theatre API service</p>
+            <p>
+              Theatre api service is a web application that allows users to
+              order tickets to the theatre plays
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/theatre_api_service"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">GitHub</p>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/theatre_api_service"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-solid fa-bolt"></i>
+                </div>
+                <p class="">Live</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img src="/public/roadmap.png" alt="swolenormous-img" />
           </div>
         </div>
       </section>
-      <section>
-        <p>Latest Projects</p>
-        <div>
-          
+      <section id="Certificates" class="projectContainer">
+        <p class="darkerText headerText">My Certificates</p>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Mate Academy</p>
+            <p>
+              Python, Git & Linux Terminal, Debugging and Testing (Pytest),
+              Django + DRF, SQL, Docker, HTML + CSS, Python Theory (Algorithms &
+              Data Structures, OOP, RESTful API, Client-Server Architecture,
+              asyncio). Additional activities include training for technical
+              interviews and live coding sessions, as well as the completion of
+              five final projects. Course duration: 600 hours, covering both
+              theoretical and practical aspects to strengthen my problem-solving
+              and development skills. This extensive program prepared me for
+              real-world software development and enhanced my understanding of
+              key backend and full-stack technologies
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1UM-PorqvqldVwZ0HNN3UIbwC8pqAW6vr/view?usp=drive_link"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Link</p>
+              </a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1UM-PorqvqldVwZ0HNN3UIbwC8pqAW6vr/view?usp=sharing"
+                class="linkItem"
+              >
+              </a>
+            </div>
+          </div>
+          <div>
+            <img src="macert.png" alt="swolenormous-img" />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">
+              Django Application Development with SQL and Databases
+            </p>
+            <p>
+              Explain what a database is and create an entity relationship data
+              model for a relational database. Compose SQL queries to insert,
+              select, update, and delete data in a database. Use Django ORM to
+              build object-oriented databases. Integrate Bootstrap into your
+              Django template and build interactive web pages.
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://github.com/KirillMelanich/Book_reading_service"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Coursera link</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~N6BJ9RPG396G/CERTIFICATE_LANDING_PAGE~N6BJ9RPG396G.jpeg"
+              alt="swolenormous-img"
+            />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">
+              Developing AI Applications with Python and Flask
+            </p>
+            <p>
+              Describe the steps and processes involved in creating a Python
+              application including the application development lifecycle.
+              Create Python modules, run unit tests Explain the features of
+              Flask and deploy applications using the Flask framework Create and
+              deploy an AI-based application onto a web server using IBM Watson
+              AI Libraries and Flask
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/verify/GQHNDD1M4HXL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Coursera Link</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~GQHNDD1M4HXL/CERTIFICATE_LANDING_PAGE~GQHNDD1M4HXL.jpeg"
+              alt="swolenormous-img"
+            />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Git and GitHub</p>
+            <p>
+              Describe GIT and its place in social and collaborative coding and
+              in DevOps. Explain basic Git concepts such as repositories and
+              branches used for distributed version control and social coding.
+              Create GitHub repositories and branches, and perform pull requests
+              and merge operations, to collaborate on a team project.
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/verify/TOOJBFMMEWSO?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Coursera Link</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TOOJBFMMEWSO/CERTIFICATE_LANDING_PAGE~TOOJBFMMEWSO.jpeg"
+              alt="swolenormous-img"
+            />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Python for Data Science, AI & Development</p>
+            <p>
+              Describe GIT and its place in social and collaborative coding and
+              in DevOps. Explain basic Git concepts such as repositories and
+              branches used for distributed version control and social coding.
+              Create GitHub repositories and branches, and perform pull requests
+              and merge operations, to collaborate on a team project.
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/verify/MSOHSI764FKV"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Coursera Link</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~MSOHSI764FKV/CERTIFICATE_LANDING_PAGE~MSOHSI764FKV.jpeg"
+              alt="swolenormous-img"
+            />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div>
+            <p class="darkerText">Linux Commands and Shell Scripting</p>
+            <p>
+              Describe the Linux architecture and common Linux distributions and
+              update and install software on a Linux system. Perform common
+              informational, file, content, navigational, compression, and
+              networking commands in Bash shell. Develop shell scripts using
+              Linux commands, environment variables, pipes, and filters.
+            </p>
+            <div class="linkContainer">
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/verify/MSOHSI764FKV"
+                class="linkItem"
+              >
+                <div>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <p class="">Coursera Link</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ATL9WB4LVVDO/CERTIFICATE_LANDING_PAGE~ATL9WB4LVVDO.jpeg"
+              alt="swolenormous-img"
+            />
+          </div>
         </div>
       </section>
     </main>

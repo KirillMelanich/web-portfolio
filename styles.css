@@ -47,6 +47,7 @@ nav {
     color: var(--secondary-color);
     display: flex;
     align-items: center;
+    gap: 14px;
 }
 
 nav a {
@@ -59,30 +60,30 @@ nav a:hover {
 
 main,
 section,
-.mainContainer {
+.nameContainer {
     display: flex;
     flex-direction: column;
 }
 main {
-    gap: 32px;
-}
-
-section {
     gap: 24px;
 }
 
-.nameContainer {
+section {
     gap: 32px;
 }
 
-/* .imageContainer {
+.nameContainer {
+    gap: 8px;
+}
+
+.imageContainer {
     border-radius: 100%;
     max-width: 144px;
     overflow: hidden;
-} */
+}
 
-/* .imgContainer img {
+.imageContainer img {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-} */
+}
